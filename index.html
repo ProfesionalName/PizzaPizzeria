@@ -3,39 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class = "container">
     <div class = "content">
-        <h1>Ice Cream Shoppe</h1>
+        <h1>Pizza Pizzeria</h1>
         <form>
             <fieldset>
                 <div class = "row">
                     <div>
-                        <label for = "firstname">First</label>
+                        <label for = "firstname">First Name</label>
                         <input id = "firstname" name = "first_name" type = "text">
                     </div>
                     <div>
-                        <label for = "lastname">Last</label>
+                        <label for = "lastname">Last Name</label>
                         <input id = "lastname" name = "last_name" type = "text">
                     </div>
                 </div>
             </fieldset>
             <div class = "row">
                 <fieldset>
-                    <legend>Flavor:</legend>
+                    <legend>Pre-Made:</legend>
                     <div>
-                        <input type = "radio" id = "vanilla" name = "icecream">
-                        <label for = "vanilla">Vanilla</label>
+                        <input type = "radio" id = "pepperoni" name = "pizza">
+                        <label for = "pepperoni">Pepperoni</label>
                     </div>
                     <div>
-                        <input type = "radio" id = "strawberry" name = "icecream">
-                        <label for = "strawberry">Strawberry</label>
+                        <input type = "radio" id = "cheese" name = "pizza">
+                        <label for = "cheese">Cheese</label>
                     </div>
                     <div>
-                        <input type = "radio" id = "chocolate" name = "icecream">
-                        <label for = "chocolate">Chocolate</label>
+                        <input type = "radio" id = "combination" name = "pizza">
+                        <label for = "combination">Combination</label>
                     </div>
                 </fieldset>
                 <fieldset>
@@ -54,38 +54,38 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend>Topping:</legend>
+                    <legend>Extra Toppings:</legend>
                     <div>
-                        <input type = "checkbox" id = "sprinkles" name = "sprinkles" value = "sprinkles">
-                        <label for = "sprinkles">Sprinkles</label>
+                        <input type = "checkbox" id = "sausage" name = "sausage" value = "sausage">
+                        <label for = "sausage">Sausage</label>
                     </div>
                     <div>
-                        <input type = "checkbox" id = "whippedCream" name = "whippedCream" value = "whippedCream">
-                        <label for = "whippedCream">Whipped Cream</label>
+                        <input type = "checkbox" id = "bacon" name = "bacon" value = "bacon">
+                        <label for = "bacon">Bacon</label>
                     </div>
                     <div>
-                        <input type = "checkbox" id = "caramel" name = "caramel" value = "caramel">
-                        <label for = "caramel">Caramel Sauce</label>
+                        <input type = "checkbox" id = "onion" name = "onion" value = "onion">
+                        <label for = "onion">Onion</label>
                     </div>
                 </fieldset>
             </div>
             <fieldset>
-                <legend>Cup or Cone:</legend>
+                <legend>For Here, Or to Go, Or Delivery:</legend>
                 <label for = "container">Please Choose One</label>
                 <select name = "container" id = "container">
-                    <option value = "cup">Plastic Cup</option>
-                    <option value = "sugar">Sugar Cone</option>
-                    <option value = "waffle">Waffle cone</option>
-                    <option value = "dippedWaffle">Chocolate Dipped Waffle Cone</option>
+                    <option value = "here">For Here</option>
+                    <option value = "go">To Go</option>
+                    <option value = "delivery">Delivery</option>
                 </select>
             </fieldset>
             <fieldset>
-                <legend>Special:</legend>
-                <label for = "SpecialRequests">Special Requests:</label>
-                <textarea id = "SpecialRequests" name = "SpecialRequests" rows = "4" cols = "10" placeholder = "Allergic to peanuts, substitutions, etc."></textarea>
+                <legend>Delivery Instructions:</legend>
+                <label for = "deliveryinstructions">Instructions For Delivery:</label>
+                <textarea id = "deliveryinstructions" name = "deliveryinstructions" rows = "4" cols = "10" placeholder = "Type the Address for Delivery"></textarea>
             </fieldset>
-            <button type = "button" onclick = "alert('Free today for our Grand Opening!')">Calculate Cost</button>
+            <button type = "button" onclick = "alert('Free for Today it is our Grand Opening!')">Calculate Cost</button>
             <button type = "submit">Submit Order</button>
+            <button type = "tip">Tips</button>
         </form>
     </div>
 </div>
